@@ -10,7 +10,7 @@ cp -rf dist/* build/portals/
 
 cp -rf ./src build/client/src
 cp -f ./package.json build/client/package.json
-cp -f ./package-lock.json build/client/package-lock.json
+cp -f ./pnpm-lock.yaml build/client/pnpm-lock.yaml
 cp -f ./.env.qa build/client/.env
 cp -f ./postcss.config.js build/client/postcss.config.js
 cp -f ./tsconfig.json build/client/tsconfig.json
