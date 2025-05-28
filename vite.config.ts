@@ -1,6 +1,7 @@
 import { defineConfig } from "vite";
 import path from "path";
 import react from "@vitejs/plugin-react";
+import tailwindcss from "@tailwindcss/vite";
 
 // Use environment variables for base path and API endpoint
 const ENDPOINT = 'https://workshop.cfg.deloitte.com/cfg-ai-demo';
@@ -16,6 +17,7 @@ export default defineConfig({
   },
   plugins: [
     react(),
+    tailwindcss(),
   ],
   build: {
     minify: !isDev, // Disable minification in development mode
