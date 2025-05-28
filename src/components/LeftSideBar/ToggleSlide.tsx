@@ -20,7 +20,7 @@ const SimpleTooltip: FC<{
 }> = ({ children, content }) => (
     <div className="relative group">
         {children}
-        <div className="absolute opacity-0 invisible group-hover:opacity-100 group-hover:visible bg-gray-100 text-gray-700 text-xs rounded-md px-3 py-2 z-10 shadow-sm border border-gray-200 transition-all duration-200 ease-out left-full ml-2 -top-1 transform translate-y-1 group-hover:translate-y-0 whitespace-nowrap">
+        <div className="absolute opacity-0 invisible group-hover:opacity-100 group-hover:visible bg-gray-100 text-gray-700 text-xs rounded-md px-3 py-2 z-10 shadow-sm border border-gray-200 transition-all duration-500 ease-out left-full ml-2 -top-1 transform translate-y-1 group-hover:translate-y-0 whitespace-nowrap">
             {content}
         </div>
     </div>

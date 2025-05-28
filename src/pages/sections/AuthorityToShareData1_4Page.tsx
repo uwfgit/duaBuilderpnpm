@@ -1,0 +1,1 @@
+// Authority to Share Data section 
